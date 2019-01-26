@@ -3,12 +3,12 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
 
-//Define port the server will be listening on.
+//Define port the server will be listening on
 var PORT = process.env.PORT || 3000;
 
 var app = express();
 
-//Serve static content for the app from the "public" directory in the application directory.
+//Serve static content for the app from the "public" directory in the application directory
 app.use(express.static(__dirname + '/public'));
 
 //Parse application/x-www-form-urlencoded
