@@ -1,0 +1,10 @@
+body {
+    background-image: url("../img/burger2.jpg");
+    /* background-color: #cccccc; */
+}
+
+.jumbotron {
+    background-image: url("../img/burger1.jpg");
+    background-position: -40px -450px;
+
+}
