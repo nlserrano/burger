@@ -1,4 +1,12 @@
 Insert into burgers (burger_name, devoured)
 values 
-	("Chicken Burger", false),
-	("Charbroiled Burger", false);
+	("Old Fashioned Burger", false),
+    ("Chicken Burger", false),
+	("Veggie Burger", false);
+
+-- update burgers
+-- set id=3
+-- where id=16;
+
+    
+
