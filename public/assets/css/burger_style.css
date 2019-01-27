@@ -1,10 +1,68 @@
 body {
     background-image: url("../img/burger2.jpg");
-    /* background-color: #cccccc; */
+    font-family: 'Exo 2', sans-serif;
 }
 
 .jumbotron {
     background-image: url("../img/burger1.jpg");
     background-position: -40px -450px;
+}
 
+/* styling for devour button */
+/* <<<< */
+.change-devour {
+    color: #2aa75a;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #2aa75a;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+  
+.change-devour {
+    color: #2aa75a;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #2aa75a;
+    font-weight: bold;
+    border-radius: 10px;
+}
+  
+.change-devour:hover,
+.change-devour:active,
+.change-devour:focus,
+.change-devour.active {
+    background: #2aa75a;
+    color: #ffffff;
+    border-color: #2aa75a;
+}
+/* >>>> */
+
+
+/* Styling for throw away button */
+/* <<<< */
+.delete-burger {
+    color: #fff;
+    background-color: rgb(219, 22, 22);
+    border-color: rgb(219, 22, 22);
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    border-radius: 0;
+}
+  
+.delete-burger:hover,
+.delete-burger:active,
+.delete-burger:focus,
+.delete-burger.active {
+    /* let's darken #004E64 a bit for hover effect */
+    background: rgb(169, 22, 22);
+    color: #ffffff;
+    border-color: rgb(169, 22, 22);
+}
+/* >>>> */
+
+
+
+#copyright {
+    margin-top: 10px;
 }
