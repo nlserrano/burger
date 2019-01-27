@@ -1,4 +1,4 @@
-//Require connection.js so that the ORM can communicate/talk with the database
+//Require connection.js for ORM to communicate/talk database
 var connection = require("./connection.js");
 
 // Helper function for SQL syntax
@@ -34,9 +34,8 @@ function printQuestionMarks(num) {
   }
   
 
-//Object for all our SQL statement functions
-//Create the methods that will execute the necessary MySQL commands in the controllers
-//These are the methods you will need to use in order to retrieve and store data in your database
+//Object SQL statement functions
+//These are the methods to retrieve and store data in the database
 var orm = {
     //Select all function/query
     selectAll: function(tableInput, cb) {
@@ -72,7 +71,6 @@ var orm = {
     },
 
     //Update function/query
-    // An example of objColVals would be {name: panther, sleepy: true}
     updateOne: function(table, objColVals, condition, cb) {
       var queryString = "UPDATE " + table;
   

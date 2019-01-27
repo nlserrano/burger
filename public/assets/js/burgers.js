@@ -25,7 +25,7 @@ $(function() {
       );
   });
 
-  //Click event for "Throw Away!" button
+  //Click event for "Trash!" button
   $(".delete-burger").on("click", function(event) {
       var id = $(this).data("id");
   
